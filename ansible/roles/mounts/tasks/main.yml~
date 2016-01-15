@@ -1,0 +1,5 @@
+---
+- package: name=linux-image-extra-virtual state=present
+- file: path=/tmp/httpdocs state=directory mode=0777
+- mount: name=/tmp/httpdocs src='none' fstype=aufs opts='br=/vagrant/merge:/vagrant/submodule-selfoss' state=mounted
+

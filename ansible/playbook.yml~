@@ -6,8 +6,8 @@
   roles:
     - server
     - vagrant_local
-    - mounts
     - apache
     - sqlite
     - php
     - app
+    - mounts
